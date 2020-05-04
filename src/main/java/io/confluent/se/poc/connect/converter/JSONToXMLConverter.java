@@ -65,7 +65,6 @@ public class JSONToXMLConverter implements Converter, HeaderConverter {
     try {
       Object o  = deserializer.deserialize(topic, value);
       JSONObject j = new JSONObject(o.toString());
-      System.out.println(j);
       return new SchemaAndValue(Schema.OPTIONAL_STRING_SCHEMA, XML.toString(j,topic));
     } 
     catch (SerializationException e) {
