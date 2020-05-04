@@ -8,8 +8,8 @@
     <version>1.0</version>
     <packaging>jar</packaging>
 
-    <name>io.confluent.se.poc.rest POC</name>
-    <description>io.confluent.se.poc.rest POC</description>
+    <name>io.confluent.se.poc.connect.converter POC</name>
+    <description>Converter for AVRO or JSON to XML</description>
 
    <properties>
      <version>2.15.1</version>
